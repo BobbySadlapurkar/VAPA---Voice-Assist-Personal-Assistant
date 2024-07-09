@@ -21,7 +21,7 @@ def wish():
     elif hour >= 12 and hour < 18:
         speak("Good Afternoon")
     else:
-        speak("Good Night")
+        speak("Good Evening")
     speak("Hello Sir, I am VAPA. How may I help you")
 
 def takeCommand():
